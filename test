@@ -154,7 +154,7 @@ ping_test()
 }
 tar_log()
 {
-zip -P shata123!@#. /www/systemlog.tar /tmp/log/* > /dev/null 
+zip -P passwd1234 /www/systemlog.tar /tmp/log/* > /dev/null 
 rm -rf /tmp/log
 echo  "$file"
 }
